@@ -1,0 +1,69 @@
+﻿Game Design Document: During The Dark
+1. Game Overview
+* Game Title: During The Dark
+* Tagline: The peace was a lie. The war never ended.
+* High Concept: A fast-paced, 2D action-horror RPG set in a gritty 1995 where the player, as an elite supernatural operative, must navigate a shadow war between a totalitarian human regime and a radical faction of oppressed mythical beings.
+* Genre: 2D Action RPG, Side-Scroller, Horror
+* Target Audience (Psychographic): Players motivated by Challenge (difficult, fair combat), Narrative (a deep, morally ambiguous story), and Fantasy (inhabiting a dark, modern-gothic world). Fans of Blasphemous, Dead Cells, and The Secret World.
+* Target Platform(s): PC (Steam), PlayStation, Xbox, Nintendo Switch.
+2. Core Pillars & Vision
+Our design is guided by four aesthetic pillars, based on the MDA framework, which define the core player experience:
+* Challenge: To deliver a demanding but fair combat experience that rewards skill, persistence, and mastery of the game's mechanics.
+* Narrative: To tell a branching, morally ambiguous story where player choice has a tangible impact on the world and its characters.
+* Fantasy: To immerse the player in the role of an elite supernatural operative, wielding incredible power in a dark, secret world.
+* Discovery: To encourage exploration of an oppressive, atmospheric world, rewarding curiosity with rich environmental storytelling and hidden lore.
+3. Gameplay Mechanics
+* Core Gameplay Loop: The loop is designed for continuous engagement, with each phase feeding into the next.
+   1. Infiltrate: Receive a mission from Warden Command and deploy to a handcrafted level.
+   2. Survive & Investigate: Engage in fast-paced combat and explore the environment to complete objectives and gather resources (intel, mutagen components, soul fragments).
+   3. Confront & Decide: Face a boss or a critical narrative choice that has consequences.
+   4. Extract & Evolve (The Booster): Return to the Hub. The collected resources serve as the Booster for the next loop, allowing the player to unlock new skills and upgrades. This fundamentally alters their capabilities, making the next infiltration a new tactical experience.
+* Player Actions & Controls:
+   * Movement: Run, Dash/Dodge (with invincibility frames), Jump, Ledge Grab.
+   * Combat: Light Attack, Heavy Attack, Block/Parry, Class-Specific Action (e.g., Use Gadget/Cast Spell).
+   * Interaction: Talk, Examine, Use Item.
+* Progression Systems:
+   * Hunter (Vertical & Horizontal Progression):
+      * Core Mechanic: Wields physical weapons and gadgets. Block is more effective.
+      * Progression: The Mutagen System. The Hunter's skill tree offers a blend of progression. Vertical boosts come from upgrades that increase damage, health, or defense (e.g., Dermal Plating). Horizontal growth comes from unlocking new tactical abilities that offer different ways to approach combat (e.g., a grapple hook for repositioning, a caltrop gadget for area denial).
+      * Capstone Ability: Mastering all available mutagens unlocks the ultimate augmentation: "Ultimate Hunter," a final, powerful transformation.
+   * Sorcerer (Horizontal Progression Emphasis):
+      * Core Mechanic: Manipulates soul energy for offense and defense. Dodge is more agile.
+      * Progression: The Soul Affinity. This is a prime example of horizontal progression. The initial choice of a "Soul Type" doesn't make the player inherently more powerful, but grants them a completely different toolkit, defining their playstyle for the entire game.
+         * Example Affinities: Soul of Flame (aggressive fire magic), Soul of Aether (reality-warping, teleportation, spatial traps), Soul of Will (kinetic shields, force blasts, telekinesis).
+* Enemy Design: A mix of four distinct archetypes to create varied combat encounters:
+   * Twisted Creatures: Unpredictable, monstrous abominations.
+   * Rogue Otherborn: Skilled individuals with supernatural abilities.
+   * Dark Alliance Operatives: Trained militants using squad tactics.
+   * Human Sympathizers: Weaker but numerous; use conventional weapons.
+* Level Structure: A hub-and-spoke design.
+4. Narrative & World
+* Story Synopsis: The fragile peace between humanity and the Otherborn is shattering. As an operative for the clandestine Wardens, the player is deployed to contain escalating threats, but soon uncovers a conspiracy that blurs the lines between ally and enemy, forcing a choice that will define the future of both races.
+* The Player Faction - The Wardens: A secretive, well-funded organization whose official mandate is to "Maintain the Veil and Preserve Order." They are the ambiguous enforcers of an oppressive status quo.
+* The Hub - Warden Command: A sterile, brutalist underground bunker that serves as the player's base of operations.
+* Key NPCs & The Rival System:
+   * Commander Valerius: The player's hardened, pragmatic handler.
+   * Dr. Aris Thorne: The cynical head of R&D and provider of upgrades.
+   * Agent Kaito (The Rival): Agent Kaito's role is enhanced through a Rival System. The player will see mission reports detailing Kaito's successes and failures on assignments they did not take. This creates a dynamic sense of a larger conflict. For example, if Kaito fails to contain a threat, the player might be tasked with a "clean-up" mission in a subsequent, more dangerous version of that level. This system provides a narrative benchmark and makes the world feel more reactive.
+* Faction Dynamics & Internal Politics:
+   * Otherborn Cultures (1995):
+      * Vampires: Corporate aristocrats who run society from the shadows and view the Dark Alliance as a threat to their stability. They play the long game, valuing influence over open conflict.
+      * Lycans: Disenfranchised, tight-knit communities pushed to the industrial fringes. They form the passionate, militant heart of the Dark Alliance, fueled by generations of rage.
+      * Sirens: Masters of information and influence. They operate unseen within media, finance, and political circles. Their support is subtle but critical, capable of turning public opinion or ruining a target's life without a single overt act of violence.
+      * Gargoyles (The Watchers): Ancient, stone-skinned protectors whose sacred charges were destroyed during the Dark War. Now adrift, they perch atop the city's brutalist skyscrapers, their forms mistaken for architecture. They are stoic observers who often act as neutral information brokers or formidable guardians, their loyalty bound by ancient pacts or sold to the highest bidder.
+      * Changelings (The Infiltrators): Fae-blooded shapeshifters who survived by assimilating into human society. Many have lived as humans for so long they suffer from a deep identity crisis, haunted by a feeling of being an imposter in their own life. Their ability to be anyone, anywhere, makes them the perfect spies, but also sows deep paranoia within all factions.
+   * The Dark Alliance: The Alliance is not a monolith. It is fractured by internal conflict. A radical Militant Wing, led by a charismatic Lycan, pushes for open warfare. They are opposed by a pragmatic Political Wing, influenced by Siren ideology, that seeks to win the war through subversion and popular support. The player's actions can empower one wing over the other, shaping the very nature of the enemy they face.
+* Environmental Storytelling: We will tell stories through the environment itself, creating a "narrative gap" for the player to fill. Instead of being told everything, the player will become a detective.
+   * Example (from "The Canal Street Contagion"): The player finds a heavily barricaded apartment door. Upon forcing it open, they see the claw marks are on the inside. In the next room, a Warden's field kit lies open next to notes detailing a failed attempt to "suppress" an Otherborn's abilities, suggesting the resident's transformation was not spontaneous but triggered by a botched Warden procedure. This tells a small, tragic story of fear and unintended consequences without a single line of dialogue.
+* Narrative Choices & Endings: The central conflict revolves around player allegiance, leading to three major branches:
+   * The Aegis Ending (Warden Loyalty)
+   * The Liberation Ending (Dark Alliance Sympathy)
+   * The Sundering Ending (Neutral/Personal)
+5. Art & Sound Direction
+* Art Style: "Modern Gothic Pixel Art." High-detail pixel art with a dark, desaturated color palette punctuated by stark flashes of neon and blood.
+* Sound Design:
+   * Music: A synth-heavy, industrial score that blends dark ambient tones with aggressive electronic beats.
+   * Soundscape: The environment is a character. Sound will be a key tool for building tension and signaling unseen threats.
+6. Monetization Strategy
+* Business Model: Premium (Pay-to-Play).
+* Integration: A complete, self-contained experience. Potential for large, narrative-driven DLC expansions post-launch.
